@@ -87,8 +87,8 @@ add_action( 'after_setup_theme', 'truvae_files' );
     
     require( get_template_directory() . '/inc/theme-update.php' );
       new ThemeUpdateChecker(
-        'myxon-master',
-        'https://raw.githubusercontent.com/jrajalu/myxon/master/version.json'
+        'truvaeoffshore-master',
+        'https://raw.githubusercontent.com/jrajalu/truvaeoffshore/master/package.json'
       );
       
     require( get_template_directory() . '/inc/theme-login.php' );
