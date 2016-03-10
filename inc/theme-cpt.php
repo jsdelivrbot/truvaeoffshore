@@ -11,18 +11,18 @@ add_action( 'init', 'register_cpt_slide' );
 function register_cpt_slide() {
 
   $labels = array( 
-    'name' => _x( 'Slides', 'slide' ),
-    'singular_name' => _x( 'Slide', 'slide' ),
-    'add_new' => _x( 'Add New', 'slide' ),
-    'add_new_item' => _x( 'Add New Slide', 'slide' ),
-    'edit_item' => _x( 'Edit Slide', 'slide' ),
-    'new_item' => _x( 'New Slide', 'slide' ),
-    'view_item' => _x( 'View Slide', 'slide' ),
-    'search_items' => _x( 'Search Slides', 'slide' ),
-    'not_found' => _x( 'No slides found', 'slide' ),
-    'not_found_in_trash' => _x( 'No slides found in Trash', 'slide' ),
-    'parent_item_colon' => _x( 'Parent Slide:', 'slide' ),
-    'menu_name' => _x( 'Slides', 'slide' ),
+    'name' => _x( 'Slides', 'truvae' ),
+    'singular_name' => _x( 'Slide', 'truvae' ),
+    'add_new' => _x( 'Add New', 'truvae' ),
+    'add_new_item' => _x( 'Add New Slide', 'truvae' ),
+    'edit_item' => _x( 'Edit Slide', 'truvae' ),
+    'new_item' => _x( 'New Slide', 'truvae' ),
+    'view_item' => _x( 'View Slide', 'truvae' ),
+    'search_items' => _x( 'Search Slides', 'truvae' ),
+    'not_found' => _x( 'No slides found', 'truvae' ),
+    'not_found_in_trash' => _x( 'No slides found in Trash', 'truvae' ),
+    'parent_item_colon' => _x( 'Parent Slide:', 'truvae' ),
+    'menu_name' => _x( 'Slides', 'truvae' ),
   );
 
   $args = array( 
@@ -57,18 +57,18 @@ add_action( 'init', 'register_cpt_product' );
   function register_cpt_product() {
 
     $labels = array( 
-      'name' => _x( 'Products', 'product' ),
-      'singular_name' => _x( 'Product', 'product' ),
-      'add_new' => _x( 'Add New', 'product' ),
-      'add_new_item' => _x( 'Add New Product', 'product' ),
-      'edit_item' => _x( 'Edit Product', 'product' ),
-      'new_item' => _x( 'New Product', 'product' ),
-      'view_item' => _x( 'View Product', 'product' ),
-      'search_items' => _x( 'Search Products', 'product' ),
-      'not_found' => _x( 'No products found', 'product' ),
-      'not_found_in_trash' => _x( 'No products found in Trash', 'product' ),
-      'parent_item_colon' => _x( 'Parent Product:', 'product' ),
-      'menu_name' => _x( 'Products', 'product' ),
+      'name' => _x( 'Products', 'truvae' ),
+      'singular_name' => _x( 'Product', 'truvae' ),
+      'add_new' => _x( 'Add New', 'truvae' ),
+      'add_new_item' => _x( 'Add New Product', 'truvae' ),
+      'edit_item' => _x( 'Edit Product', 'truvae' ),
+      'new_item' => _x( 'New Product', 'truvae' ),
+      'view_item' => _x( 'View Product', 'truvae' ),
+      'search_items' => _x( 'Search Products', 'truvae' ),
+      'not_found' => _x( 'No products found', 'truvae' ),
+      'not_found_in_trash' => _x( 'No products found in Trash', 'truvae' ),
+      'parent_item_colon' => _x( 'Parent Product:', 'truvae' ),
+      'menu_name' => _x( 'Products', 'truvae' ),
     );
 
     $args = array( 
@@ -102,18 +102,18 @@ add_action( 'init', 'register_cpt_service' );
   function register_cpt_service() {
 
     $labels = array( 
-      'name' => _x( 'Services', 'service' ),
-      'singular_name' => _x( 'Service', 'service' ),
-      'add_new' => _x( 'Add New', 'service' ),
-      'add_new_item' => _x( 'Add New Service', 'service' ),
-      'edit_item' => _x( 'Edit Service', 'service' ),
-      'new_item' => _x( 'New Service', 'service' ),
-      'view_item' => _x( 'View Service', 'service' ),
-      'search_items' => _x( 'Search Services', 'service' ),
-      'not_found' => _x( 'No services found', 'service' ),
-      'not_found_in_trash' => _x( 'No services found in Trash', 'service' ),
-      'parent_item_colon' => _x( 'Parent Service:', 'service' ),
-      'menu_name' => _x( 'Services', 'service' ),
+      'name' => _x( 'Services', 'truvae' ),
+      'singular_name' => _x( 'Service', 'truvae' ),
+      'add_new' => _x( 'Add New', 'truvae' ),
+      'add_new_item' => _x( 'Add New Service', 'truvae' ),
+      'edit_item' => _x( 'Edit Service', 'truvae' ),
+      'new_item' => _x( 'New Service', 'truvae' ),
+      'view_item' => _x( 'View Service', 'truvae' ),
+      'search_items' => _x( 'Search Services', 'truvae' ),
+      'not_found' => _x( 'No services found', 'truvae' ),
+      'not_found_in_trash' => _x( 'No services found in Trash', 'truvae' ),
+      'parent_item_colon' => _x( 'Parent Service:', 'truvae' ),
+      'menu_name' => _x( 'Services', 'truvae' ),
     );
 
     $args = array( 
@@ -147,18 +147,18 @@ add_action( 'init', 'register_cpt_project' );
 function register_cpt_project() {
 
   $labels = array( 
-    'name' => _x( 'Projects', 'project' ),
-    'singular_name' => _x( 'Project', 'project' ),
-    'add_new' => _x( 'Add New', 'project' ),
-    'add_new_item' => _x( 'Add New Project', 'project' ),
-    'edit_item' => _x( 'Edit Project', 'project' ),
-    'new_item' => _x( 'New Project', 'project' ),
-    'view_item' => _x( 'View Project', 'project' ),
-    'search_items' => _x( 'Search Projects', 'project' ),
-    'not_found' => _x( 'No projects found', 'project' ),
-    'not_found_in_trash' => _x( 'No projects found in Trash', 'project' ),
-    'parent_item_colon' => _x( 'Parent Project:', 'project' ),
-    'menu_name' => _x( 'Projects', 'project' ),
+    'name' => _x( 'Projects', 'truvae' ),
+    'singular_name' => _x( 'Project', 'truvae' ),
+    'add_new' => _x( 'Add New', 'truvae' ),
+    'add_new_item' => _x( 'Add New Project', 'truvae' ),
+    'edit_item' => _x( 'Edit Project', 'truvae' ),
+    'new_item' => _x( 'New Project', 'truvae' ),
+    'view_item' => _x( 'View Project', 'truvae' ),
+    'search_items' => _x( 'Search Projects', 'truvae' ),
+    'not_found' => _x( 'No projects found', 'truvae' ),
+    'not_found_in_trash' => _x( 'No projects found in Trash', 'truvae' ),
+    'parent_item_colon' => _x( 'Parent Project:', 'truvae' ),
+    'menu_name' => _x( 'Projects', 'truvae' ),
   );
 
   $args = array( 

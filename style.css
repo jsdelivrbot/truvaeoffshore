@@ -312,7 +312,7 @@ a img.aligncenter {
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover,
 #cssmenu > ul > li.active > a {
-  color: #F9BE09;
+  color: #3c63b8;
 }
 
 #cssmenu > ul > li.has-sub > a {
@@ -623,7 +623,7 @@ a img.aligncenter {
 }
 
 .header-wrap {
-  background: #1C1C2F;
+  background: #f0efef;
   min-height: 90px;
   position: relative;
   z-index: 5;
@@ -678,7 +678,7 @@ footer, .page-wrap:after {
 }
 
 footer {
-  background: #020402;
+  background: #3c63b8;
 }
 footer .copyright {
   margin-top: 35px;

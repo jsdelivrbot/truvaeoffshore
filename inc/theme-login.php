@@ -1,9 +1,9 @@
 <?php
 /**
- * @package myxon
+ * @package truvae
  * @since 1.0
  */
-function myxon_login_logo() { ?>
+function truvae_login_logo() { ?>
   <style type="text/css">
   body.login div#login h1 a {
     background-image: none, url("<?php echo get_stylesheet_directory_uri(); ?>/images/logo-login.svg");
@@ -35,14 +35,14 @@ function myxon_login_logo() { ?>
   }
   </style>
 <?php }
-add_action( 'login_enqueue_scripts', 'myxon_login_logo' );
+add_action( 'login_enqueue_scripts', 'truvae_login_logo' );
 
-function myxon_login_logo_url() {
+function truvae_login_logo_url() {
   return get_bloginfo( 'url' );
 }
-add_filter( 'login_headerurl', 'myxon_login_logo_url' );
+add_filter( 'login_headerurl', 'truvae_login_logo_url' );
 
-function myxon_login_logo_url_title() {
+function truvae_login_logo_url_title() {
   return get_bloginfo( 'name' );
 }
-add_filter( 'login_headertitle', 'myxon_login_logo_url_title' );
+add_filter( 'login_headertitle', 'truvae_login_logo_url_title' );

@@ -1,6 +1,6 @@
 <?php
 /**
- * @package myxon
+ * @package truvae
  * @since 1.0
  */
 
@@ -33,7 +33,7 @@ add_action( 'after_setup_theme', 'truvae_setup' );
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
     remove_action( 'wp_print_styles', 'print_emoji_styles' );
     
-    load_theme_textdomain( 'myxon', get_template_directory() . '/lang' );
+    load_theme_textdomain( 'truvae', get_template_directory() . '/lang' );
 
     add_theme_support( 'custom-header', array(
       'width'         => 319.953,
@@ -47,7 +47,7 @@ add_action( 'after_setup_theme', 'truvae_setup' );
     add_filter( 'show_admin_bar', '__return_false' );
     
     register_nav_menus( array(
-      'main-navigation'   => __( 'Main Navigation', 'myxon' ),
+      'main-navigation'   => __( 'Main Navigation', 'truvae' ),
     ) );
     
   }
@@ -104,9 +104,9 @@ add_action( 'widgets_init', 'truvae_widgets_init' );
   function truvae_widgets_init() {
 
     register_sidebar( array(
-      'name'            => __( 'Page Sidebar', 'myxon' ),
+      'name'            => __( 'Page Sidebar', 'truvae' ),
       'id'              => 'sidebar-1',
-      'description'     => __( 'Appears when using the optional page', 'myxon' ),
+      'description'     => __( 'Appears when using the optional page', 'truvae' ),
       'before_widget'   => '<aside class="arrow-box">',
       'after_widget'    => '</aside>',
       'before_title'    => '<h3 class="widget-title">',
@@ -114,9 +114,9 @@ add_action( 'widgets_init', 'truvae_widgets_init' );
     ) );
 
     register_sidebar( array(
-      'name'            => __( 'Frontpage: Left', 'myxon' ),
+      'name'            => __( 'Frontpage: Left', 'truvae' ),
       'id'              => 'sidebar-2',
-      'description'     => __( 'Appears when using the optional Front Page', 'myxon' ),
+      'description'     => __( 'Appears when using the optional Front Page', 'truvae' ),
       'before_widget'   => '<aside class="col-8-12 widget-left front-widget">',
       'after_widget'    => '</aside>',
       'before_title'    => '<h2 class="widget-title">',
@@ -124,9 +124,9 @@ add_action( 'widgets_init', 'truvae_widgets_init' );
     ) );
     
     register_sidebar( array(
-      'name'            => __( 'Frontpage: Right', 'myxon' ),
+      'name'            => __( 'Frontpage: Right', 'truvae' ),
       'id'              => 'sidebar-3',
-      'description'     => __( 'Appears when using the optional Front Page', 'myxon' ),
+      'description'     => __( 'Appears when using the optional Front Page', 'truvae' ),
       'before_widget'   => '<aside class="col-4-12 widget-right front-widget">',
       'after_widget'    => '</aside>',
       'before_title'    => '<h2 class="widget-title">',
@@ -140,7 +140,7 @@ add_filter( 'get_search_form', 'truvae_search_form' );
 
   function truvae_search_form( $form ) {
     $form = '<form role="search" method="get" class="uk-form" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
-    <input type="search" class="search-field" placeholder="' . esc_attr__( 'Search...', 'myxon' ) . '" value="' . get_search_query() . '" name="s" id="s" />
+    <input type="search" class="search-field" placeholder="' . esc_attr__( 'Search...', 'truvae' ) . '" value="' . get_search_query() . '" name="s" id="s" />
     <button class="search-submit uk-button" id="searchsubmit">'. esc_attr__( 'Search' ) .'</button>
     </form>';
 
