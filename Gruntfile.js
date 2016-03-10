@@ -127,6 +127,9 @@ module.exports = function(grunt) {
       cmb2: [
               'lib/cmb2/tests',
               'lib/cmb2/css/sass',
+              'lib/cmb2/css/*.css',
+              'lib/cmb2/css/*.map',
+              '!lib/cmb2/css/*.min.css',
               'lib/cmb2/languages/*.po',
               'lib/cmb2/languages/*.mo',
               '!lib/cmb2/*.pot',
