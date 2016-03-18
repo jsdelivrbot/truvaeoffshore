@@ -27,18 +27,18 @@ get_header(); ?>
       </div>
     </div>
   </div>
-    <div class="col-4-12 pad-left">
-      <div class="uk-panel uk-panel-box">
-        <ul class="widget-page-list">
-          <?php 
-            $args = array(
-              'post_type' => 'service',
-              'title_li'  => '<h3> '. __( 'Services' ) .' </h3>'
-            );
-            wp_list_pages( $args ); 
-          ?>
-        </ul>
-      </div>
-  </div>
+  <div class="col-4-12 pad-left">
+    <div class="uk-panel uk-panel-box">
+      <ul class="widget-page-list">
+        <?php 
+          $args = array(
+            'post_type' => 'service',
+            'title_li'  => '<h3> '. __( 'Services' ) .' </h3>'
+          );
+          wp_list_pages( $args ); 
+        ?>
+      </ul>
+    </div>
+</div>
 </div>
 <?php get_footer(); ?>
